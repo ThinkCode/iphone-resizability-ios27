@@ -1,6 +1,9 @@
 # iOS 27 Resizability Implementation Guide
 
-> Goal: Make an iPhone app fully resizable in iPhone Mirroring and when running on iPad.
+**Adapted from:** Jacob Techtavern (@jacobtechtavern)
+**Original source:** https://x.com/jacobtechtavern/status/2105918220733436369
+
+> This guide restructures and expands the original iOS 27 resizability guidance into an agent-friendly implementation checklist for iOS codebases.
 
 ## 1) Scene lifecycle migration
 
@@ -272,3 +275,13 @@ The main rule for iOS 27 resizability is simple:
 > Adapt to available space, not the device or screen size.
 
 If an app follows the scene lifecycle and removes hardcoded device/screen assumptions, most resizability issues disappear.
+
+---
+
+## Credits & Attribution
+
+This guide is adapted from original iOS 27 resizability guidance shared by Jacob Techtavern.
+
+- Original author: Jacob Techtavern (@jacobtechtavern)
+- Original post: https://x.com/jacobtechtavern/status/2105918220733436369
+- Adaptation purpose: restructuring the guidance into a practical agent-friendly implementation checklist for iOS development
